@@ -25,11 +25,12 @@ export default function CharacterScreen({ route, navigation }) {
 
 const styles = StyleSheet.create({
   container: {
-    flex: 1,
+    // flex: 1,
     alignItems: "center",
     justifyContent: "center"
   },
   imageChar: {
+    position: "relative",
     width: 300,
     height: 300,
     borderWidth: 1,
